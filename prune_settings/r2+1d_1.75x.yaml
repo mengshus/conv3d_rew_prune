@@ -1,0 +1,75 @@
+prune_ratios:
+#   module.stem.0.weight:  #[45, 3, 1, 7, 7]
+#     0.
+#   module.stem.3.weight:  #[64, 45, 3, 1, 1]
+#     0.
+   module.layer1.0.conv1.0.0.weight:  #[144, 64, 1, 3, 3]
+     0.67
+   # module.layer1.0.conv1.0.3.weight:  #[64, 144, 3, 1, 1]
+   #   0.
+   module.layer1.0.conv2.0.0.weight:  #[144, 64, 1, 3, 3]
+     0.67
+   # module.layer1.0.conv2.0.3.weight:  #[64, 144, 3, 1, 1]
+   #   0.
+   module.layer1.1.conv1.0.0.weight:  #[144, 64, 1, 3, 3]
+     0.67
+   # module.layer1.1.conv1.0.3.weight:  #[64, 144, 3, 1, 1]
+   #   0.
+   module.layer1.1.conv2.0.0.weight:  #[144, 64, 1, 3, 3]
+     0.67
+   # module.layer1.1.conv2.0.3.weight:  #[64, 144, 3, 1, 1]
+   #   0.
+   module.layer2.0.conv1.0.0.weight:  #[230, 64, 1, 3, 3]
+     0.67
+   # module.layer2.0.conv1.0.3.weight:  #[128, 230, 3, 1, 1]
+   #   0.
+   module.layer2.0.conv2.0.0.weight:  #[230, 128, 1, 3, 3]
+     0.67
+   # module.layer2.0.conv2.0.3.weight:  #[128, 230, 3, 1, 1]
+   #   0.
+#   module.layer2.0.downsample.0.weight:  #[128, 64, 1, 1, 1]
+#     0.
+   module.layer2.1.conv1.0.0.weight:  #[288, 128, 1, 3, 3]
+     0.67
+   # module.layer2.1.conv1.0.3.weight:  #[128, 288, 3, 1, 1]
+   #   0.
+   module.layer2.1.conv2.0.0.weight:  #[288, 128, 1, 3, 3]
+     0.67
+   # module.layer2.1.conv2.0.3.weight:  #[128, 288, 3, 1, 1]
+   #   0.
+   module.layer3.0.conv1.0.0.weight:  #[460, 128, 1, 3, 3]
+     0.33
+   # module.layer3.0.conv1.0.3.weight:  #[256, 460, 3, 1, 1]
+   #   0.
+   module.layer3.0.conv2.0.0.weight:  #[460, 256, 1, 3, 3]
+     0.33
+   # module.layer3.0.conv2.0.3.weight:  #[256, 460, 3, 1, 1]
+   #   0.
+#   module.layer3.0.downsample.0.weight:  #[256, 128, 1, 1, 1]
+#     0.
+   module.layer3.1.conv1.0.0.weight:  #[576, 256, 1, 3, 3]
+     0.33
+   # module.layer3.1.conv1.0.3.weight:  #[256, 576, 3, 1, 1]
+   #   0.
+   module.layer3.1.conv2.0.0.weight:  #[576, 256, 1, 3, 3]
+     0.33
+   # module.layer3.1.conv2.0.3.weight:  #[256, 576, 3, 1, 1]
+   #   0.
+#   module.layer4.0.conv1.0.0.weight:  #[921, 256, 1, 3, 3]
+#     0.
+#   module.layer4.0.conv1.0.3.weight:  #[512, 921, 3, 1, 1]
+#     0.
+#   module.layer4.0.conv2.0.0.weight:  #[921, 512, 1, 3, 3]
+#     0.
+#   module.layer4.0.conv2.0.3.weight:  #[512, 921, 3, 1, 1]
+#     0.
+#   module.layer4.0.downsample.0.weight:  #[512, 256, 1, 1, 1]
+#     0.
+#   module.layer4.1.conv1.0.0.weight:  #[1152, 512, 1, 3, 3]
+#     0.
+#   module.layer4.1.conv1.0.3.weight:  #[512, 1152, 3, 1, 1]
+#     0.
+#   module.layer4.1.conv2.0.0.weight:  #[1152, 512, 1, 3, 3]
+#     0.
+#   module.layer4.1.conv2.0.3.weight:  #[512, 1152, 3, 1, 1]
+#     0.
