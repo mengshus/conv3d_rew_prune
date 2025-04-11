@@ -1,0 +1,10 @@
+-f https://download.pytorch.org/whl/cu102/torch_stable.html
+numpy
+torch==1.10.1+cu102
+torchvision
+pyyaml
+ffmpeg
+sk-video
+lmdb
+pillow==6.2.1
+pyarrow==0.11.1

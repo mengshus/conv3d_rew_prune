@@ -1,0 +1,17 @@
+prune_ratios:
+#   module.conv1.weight:  #[64, 3, 3, 3, 3]
+#     0.
+   module.conv2.weight:  #[128, 64, 3, 3, 3]
+     0.67
+   module.conv3a.weight:  #[256, 128, 3, 3, 3]
+     0.33
+   module.conv3b.weight:  #[256, 256, 3, 3, 3]
+     0.67
+   # module.conv4a.weight:  #[512, 256, 3, 3, 3]
+   #   0.
+   module.conv4b.weight:  #[512, 512, 3, 3, 3]
+     0.33
+#   module.conv5a.weight:  #[512, 512, 3, 3, 3]
+#     0.
+#   module.conv5b.weight:  #[512, 512, 3, 3, 3]
+#     0.
